@@ -1,17 +1,14 @@
 # unit-4-game
 jQuery Assignment
 
-Overview
+## Overview
 Create a fun and interactive game for web browsers that must dynamically update your HTML pages with the jQuery library.
 
 Choose whichever game you want to make from the choices below. The CrystalsCollector game is the recommended option, but if you are looking for an extra hard challenge then take a stab at the Star Wars exercise. (Note: Only choose the Star Wars Exercise if you are feeling very comfortable with the material covered in class. The Crystal Collector activity is plenty challenging enough!).
 
-##Option One: CrystalsCollector Game (Recommended)
-
-Watch the demo.
+## Option One: CrystalsCollector Game (Recommended)
 
 The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters.
-
 
 Here's how the app works:
 
@@ -35,8 +32,7 @@ Each crystal hidden value 1<>12|
 
 
 
-##Option Two: Star Wars RPG Game (Challenge)
-
+## Option Two: Star Wars RPG Game (Challenge)
 
 Here's how the app works:
 
