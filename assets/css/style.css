@@ -34,8 +34,19 @@
 
 .container-fluid{
 color:goldenrod;
-font-family: 'Press Start 2P', cursive;
+font-family:  'Bungee Inline', cursive;
 font-size:.7rem;
+}
+
+#gem2{
+  background-color: #bf3a30;
+  max-height:150px;
+  background-image:  url(../images/pool.jpg);
+  clip-path:polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+polygon{
+  opacity:0%;
+
 }
 
 
