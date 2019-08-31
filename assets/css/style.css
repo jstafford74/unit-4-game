@@ -38,15 +38,31 @@ font-family:  'Bungee Inline', cursive;
 font-size:.7rem;
 }
 
-#gem2{
-  background-color: #bf3a30;
-  max-height:150px;
-  background-image:  url(../images/pool.jpg);
-  clip-path:polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+#gem1{
+  max-height: 150px;
+  background-image:  url(../images/brightsun.jpg);
+  clip-path: polygon(25% 0%, 50% 25%, 50% 75%, 25% 100%, 0% 75%, 0% 25%);
 }
-polygon{
-  opacity:0%;
+#gem2{
+  max-height:150px;
+  background-image:  url(../images/mnj.jpg);
+  clip-path:polygon(35% 0%, 50% 50%, 35% 100%, 15% 100%, 0% 50%, 15% 0%);
+}
 
+#gem3{
+  max-height:150px;
+  background-image:  url(../images/moonwarp.jpg);
+  clip-path: polygon(8% 15%, 15% 15%, 15% 0%, 43% 0%, 43% 15%, 50% 15%, 50% 85%, 43% 85%, 43% 100%, 15% 100%, 15% 85%, 8% 85%);
+  background-position-x:-600px;
+  background-position-y:-500px;
+
+}
+#gem4{
+  max-height:150px;
+  background-image:  url(../images/shells.jpg);
+  clip-path: polygon(25% 0%, 50% 50%, 25% 100%, 0% 50%);
+  background-position-x:-600px;
+  background-position-y:-500px;
 }
 
 
