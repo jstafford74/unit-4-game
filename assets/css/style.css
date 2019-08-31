@@ -65,7 +65,25 @@ font-size:.7rem;
   background-position-y:-500px;
 }
 
+#scoreboard{
+  height:35vh;
+  border: silver solid 3px;
+  margin:0px !important;
+  align-items:center;
+  vertical-align:middle;
+}
+#wrapper {
+  width: 500px;
+  margin: 50px auto 0;
+}
 
+#display {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80px;
+  color: rgba(240, 217, 13, 0.842);
+  text-align: center;
+  background: black;
+}
 
 /* Font Families */
 /* font-family: 'Press Start 2P', cursive;

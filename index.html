@@ -15,13 +15,10 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Linked Script Sheets -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/fee8a4f90f.js"></script>
+
+
 </head>
-    <!-- Psuedo code 
+<!-- Psuedo code 
     1. Create four crystals displayed as buttons on the page.
     2. Create target container
         a. Display target at start of each game
@@ -41,51 +38,94 @@ Game design notes
 The target between 19 <> 120
 Each crystal hidden value 1<>12 -->
 
-    <!-- Scorebard -->
-    <div class="jumbotron">
-        <div class="row">
-            <div class="col-12 box-with-text">
-                Crystal Game
+<!-- Scorebard -->
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-12 box-with-text">
+            Crystal Game
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+
+    <!-- Four columns that contain the crystal images -->
+    <div class="row">
+        <div class="col-lg-3">
+            <svg id="gem1">
+                <!-- <a href="#"> <polygon points="100,130 80,85 80,45 100,10 130,10 150,45 150,85 130,130">Crystal 1</a> -->
+            </svg>
+
+        </div>
+        <div class="col-lg-3">
+            <svg id="gem2">
+            </svg>
+        </div>
+        <div class="col-lg-3">
+            <svg id="gem3">
+            </svg>
+        </div>
+        <div class="col-lg-3">
+            <svg id="gem4">
+            </svg>
+        </div>
+    </div>
+    <br>
+
+    <div id="scoreboard">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 text-center">
+                    <button type="button" class="btn btn-danger btn-block" id="gettar">Start The Game By Getting Your
+                        Target Number</button>
+
+                </div>
+                <div class="col-3" id="display">
+                    <h3>Target </h3>
+                    <span id="target"></span>
+                </div>
+                <div class="col-3" id="display">
+                        <h3>Score </h3>
+                        <span id="score"></span>
+                    </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
 
-        <!-- Four columns that contain the crystal images -->
-        <div class="row">
-            <div class="col-lg-3">
-                <svg id="gem1">
-                   <!-- <a href="#"> <polygon points="100,130 80,85 80,45 100,10 130,10 150,45 150,85 130,130">Crystal 1</a> -->
-                </svg>
-                <h2>Heading</h2>
-                <p>This is crystal number 1</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-            </div>
-            <div class="col-lg-3">
-                <svg id="gem2">
-                   <!-- <a href="#"> <polygon points="100,130 80,85 80,45 100,10 130,10 150,45 150,85 130,130">Crystal 1</a> -->
-                </svg>
-                <h2>Heading</h2>
-                <p>This is crystal number 1</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-            </div>
-            <div class="col-lg-3">
-                <svg id="gem3">
-                   <!-- <a href="#"> <polygon points="100,130 80,85 80,45 100,10 130,10 150,45 150,85 130,130">Crystal 1</a> -->
-                </svg>
-                <h2>Heading</h2>
-                <p>This is crystal number 3</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-            </div>
-            <div class="col-lg-3">
-                <svg id="gem4">
-                   <!-- <a href="#"> <polygon points="100,130 80,85 80,45 100,10 130,10 150,45 150,85 130,130">Crystal 1</a> -->
-                </svg>
-                <h2>Heading</h2>
-                <p>This is crystal number 3</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-            </div>
+
+    <div id="wrapper">
+
+        <div id="display">00:00</div>
+        <div>
+
+            <span id="target"></span>
+        </div>
+
+        <div>
+            <h3>Score:</h3>
+            <span id="score"></span>
+        </div>
+
+        <div>
+            <h3>Wins:</h3>
+            <span id="wins"></span>
+        </div>
+
+        <div>
+            <h3>Losses: </h3>
+            <span id="losses"></span>
+        </div>
+
+        <div>
+            <h3>Games Played:</h3>
+            <span id="played"></span>
         </div>
 
     </div>
-    </html>
+    <!-- Linked Script Sheets -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/fee8a4f90f.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>
