@@ -51,78 +51,73 @@ Each crystal hidden value 1<>12 -->
     <!-- Four columns that contain the crystal images -->
     <div class="row">
         <div class="col-lg-3">
-            <svg id="gem1">
-                <!-- <a href="#"> <polygon points="100,130 80,85 80,45 100,10 130,10 150,45 150,85 130,130">Crystal 1</a> -->
-            </svg>
-
+            <svg class="gemImage" id="gem1"> </svg>
         </div>
         <div class="col-lg-3">
-            <svg id="gem2">
-            </svg>
+            <svg class="gemImage" id="gem2"> </svg>
         </div>
         <div class="col-lg-3">
-            <svg id="gem3">
-            </svg>
+            <svg class="gemImage" id="gem3"></svg>
         </div>
         <div class="col-lg-3">
-            <svg id="gem4">
-            </svg>
+            <svg class="gemImage" id="gem4"> </svg>
         </div>
     </div>
     <br>
 
-    <div id="scoreboard">
-        <div class="container">
-            <div class="row">
-                <div class="col-3 text-center">
-                    <button type="button" class="btn btn-danger btn-block" id="gettar">Start The Game By Getting Your
-                        Target Number</button>
 
-                </div>
-                <div class="col-3" id="display">
-                    <h3>Target </h3>
-                    <span id="target"></span>
-                </div>
-                <div class="col-3" id="display">
-                        <h3>Score </h3>
-                        <span id="score"></span>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <button type="button" class="btn btn-danger btn-block" id="gettar">Start The Game By Getting Your
+                    Target Number</button>
+
             </div>
         </div>
+
+        <div class="row">
+
+        </div>
     </div>
+
 
 
     <div id="wrapper">
 
-        <div id="display">00:00</div>
-        <div>
 
-            <span id="target"></span>
+        <div class="row">
+            <div class="col-12 display">
+                <h3>Target: <span class="target"></span></h3>
+            </div>
         </div>
-
-        <div>
-            <h3>Score:</h3>
-            <span id="score"></span>
+        <div class="row">
+            <div class="col-12 display">
+                <h3>Score: <span class="score"></span></h3>
+            </div>
         </div>
-
-        <div>
-            <h3>Wins:</h3>
-            <span id="wins"></span>
+        <div class="row">
+            <div class="col-12 display">
+                <h3>Wins: <span class="wins"></span></h3>
+            </div>
         </div>
-
-        <div>
-            <h3>Losses: </h3>
-            <span id="losses"></span>
+        <div class="row">
+            <div class="col-12 display">
+                <h3>Losses: <span class="losses"></span></h3>
+            </div>
         </div>
-
-        <div>
-            <h3>Games Played:</h3>
-            <span id="played"></span>
+        <div class="row">
+            <div class="col-12 display">
+                <h3>Games Played: <span class="games"></span></h3>
+            </div>
         </div>
 
     </div>
+
+
     <!-- Linked Script Sheets -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/fee8a4f90f.js"></script>
