@@ -1,4 +1,9 @@
-
+body{
+  /* height:100vh; */
+  background-color: #787879;
+ 
+ 
+}
 .box-with-text {
   background: url(../images/pool.jpg);
   background-clip: text;
@@ -42,11 +47,17 @@ font-size:.7rem;
   max-height: 150px;
   background-image:  url(../images/brightsun.jpg);
   clip-path: polygon(25% 0%, 50% 25%, 50% 75%, 25% 100%, 0% 75%, 0% 25%);
+  background-position-x:-1000px;
+  background-position-y:-200px;
+
 }
 #gem2{
   max-height:150px;
   background-image:  url(../images/mnj.jpg);
   clip-path:polygon(35% 0%, 50% 50%, 35% 100%, 15% 100%, 0% 50%, 15% 0%);
+  background-position-x:-225px;
+  background-position-y:-130px;
+
 }
 
 #gem3{
@@ -54,7 +65,7 @@ font-size:.7rem;
   background-image:  url(../images/moonwarp.jpg);
   clip-path: polygon(8% 15%, 15% 15%, 15% 0%, 43% 0%, 43% 15%, 50% 15%, 50% 85%, 43% 85%, 43% 100%, 15% 100%, 15% 85%, 8% 85%);
   background-position-x:-600px;
-  background-position-y:-500px;
+  background-position-y:-600px;
 
 }
 #gem4{
@@ -71,19 +82,24 @@ font-size:.7rem;
   
   
 }
+#gettar{
+  font-family: 'Press Start 2P', cursive;
+  font-size:1.5rem;
+}
 #wrapper {
-  height:40vh;
-  width: 30%;
-  margin:0px !important;
+  height:50vh;
+  width: 50%;
   border:silver solid 3px;
   background: black;
+  margin-left:25%;
 }
 
-#display {
+
+.col-6.display{
   font-family: 'Press Start 2P', cursive;
+  justify-content:flex-end;
   color: rgba(240, 217, 13, 0.842);
-  text-align: left;
- 
+  font-size:1.5rem;
 }
 span{
   font-family: 'Press Start 2P', cursive;
@@ -92,6 +108,7 @@ span{
 span.target{
 color:rgb(211, 76, 76);
 }
+
 span.score{
   color:rgba(57, 194, 3, 0.842);
   }
