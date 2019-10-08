@@ -1,7 +1,7 @@
 # unit-4-game
 jQuery Assignment
 
-#Deployed Link:
+# Deployed Link:
 https://jstafford74.github.io/unit-4-game/
 
 ## Overview
